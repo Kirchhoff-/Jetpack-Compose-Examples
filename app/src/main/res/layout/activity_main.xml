@@ -16,6 +16,12 @@
         android:id="@+id/bSimpleLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/simple_layout_example"/>
+        android:text="@string/simple_layout_example" />
+
+    <Button
+        android:id="@+id/bSimpleCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_card_example" />
 
 </LinearLayout>

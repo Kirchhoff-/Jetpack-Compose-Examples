@@ -19,6 +19,7 @@
 
         <activity android:name=".HelloAndroidActivity" />
         <activity android:name=".SimpleLayoutActivity" />
+        <activity android:name=".SimpleCardActivity" />
     </application>
 
 </manifest>

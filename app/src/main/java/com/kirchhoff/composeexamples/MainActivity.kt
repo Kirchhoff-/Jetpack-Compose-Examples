@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.bHelloAndroid).setOnClickListener { startActivity(Intent(this, HelloAndroidActivity::class.java)) }
         findViewById<Button>(R.id.bSimpleLayout).setOnClickListener { startActivity(Intent(this, SimpleLayoutActivity::class.java)) }
+        findViewById<Button>(R.id.bSimpleCard).setOnClickListener { startActivity(Intent(this, SimpleCardActivity::class.java)) }
     }
 }
