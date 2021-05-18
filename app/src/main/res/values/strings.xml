@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ComposeExamples</string>
     <string name="hello_android_example">Hello Android example</string>
+    <string name="simple_layout_example">Simple layout example</string>
 </resources>
