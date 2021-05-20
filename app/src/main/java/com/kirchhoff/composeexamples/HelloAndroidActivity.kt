@@ -1,10 +1,10 @@
 package com.kirchhoff.composeexamples
 
 import android.os.Bundle
+import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.setContent
 
 class HelloAndroidActivity : AppCompatActivity() {
 
