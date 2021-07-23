@@ -3,16 +3,18 @@ plugins {
     id 'kotlin-android'
 }
 
+apply from: '../buildsystem/dependencies.gradle'
+
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion versions.compileSdk
+    buildToolsVersion versions.buildTools
 
     defaultConfig {
         applicationId "com.kirchhoff.composeexamples"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        versionCode versions.versionCode
+        versionName versions.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -39,22 +41,22 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerVersion kotlin_version
-        kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerVersion versions.kotlin
+        kotlinCompilerExtensionVersion versions.compose
     }
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.6.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation libraries.androidKtx
+    implementation libraries.constraintLayout
 
-    implementation 'androidx.appcompat:appcompat:1.4.0-alpha03'
-    implementation "androidx.activity:activity-compose:1.3.0-rc01"
-    implementation "androidx.compose.ui:ui:$compose_version"
+    implementation libraries.appCompat
+    implementation libraries.activityCompose
+    implementation libraries.composeUI
     // Tooling support (Previews, etc.)
-    implementation "androidx.compose.ui:ui-tooling:$compose_version"
+    implementation libraries.composeUITooling
     // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
-    implementation "androidx.compose.foundation:foundation:$compose_version"
+    implementation libraries.composeFoundation
     // Material Design
-    implementation "androidx.compose.material:material:$compose_version"
+    implementation libraries.composeMaterial
 }
