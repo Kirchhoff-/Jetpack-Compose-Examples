@@ -59,4 +59,5 @@ dependencies {
     implementation libraries.composeFoundation
     // Material Design
     implementation libraries.composeMaterial
+    implementation libraries.navigationCompose
 }
