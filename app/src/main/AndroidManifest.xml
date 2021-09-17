@@ -21,6 +21,7 @@
         <activity android:name=".SimpleLayoutActivity" />
         <activity android:name=".SimpleCardActivity" />
         <activity android:name=".navigationdrawer.NavigationDrawerActivity" />
+        <activity android:name=".customshape.CustomShapeActivity" />
     </application>
 
 </manifest>

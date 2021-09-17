@@ -30,4 +30,10 @@
         android:layout_height="wrap_content"
         android:text="@string/navigation_drawer_example" />
 
+    <Button
+        android:id="@+id/bCustomShapeExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_shape_example" />
+
 </LinearLayout>

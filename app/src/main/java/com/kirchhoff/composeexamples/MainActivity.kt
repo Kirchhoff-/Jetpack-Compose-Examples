@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 
 class MainActivity : AppCompatActivity() {
@@ -16,5 +17,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bSimpleLayout).setOnClickListener { startActivity(Intent(this, SimpleLayoutActivity::class.java)) }
         findViewById<Button>(R.id.bSimpleCard).setOnClickListener { startActivity(Intent(this, SimpleCardActivity::class.java)) }
         findViewById<Button>(R.id.bDrawerExample).setOnClickListener { startActivity(Intent(this, NavigationDrawerActivity::class.java)) }
+        findViewById<Button>(R.id.bCustomShapeExample).setOnClickListener { startActivity(Intent(this, CustomShapeActivity::class.java)) }
     }
 }

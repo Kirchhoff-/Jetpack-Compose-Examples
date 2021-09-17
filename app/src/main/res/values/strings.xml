@@ -4,4 +4,5 @@
     <string name="simple_layout_example">Simple layout example</string>
     <string name="simple_card_example">Simple card example</string>
     <string name="navigation_drawer_example">Navigation drawer example</string>
+    <string name="custom_shape_example">Custom shape example</string>
 </resources>
