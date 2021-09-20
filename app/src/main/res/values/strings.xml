@@ -5,4 +5,5 @@
     <string name="simple_card_example">Simple card example</string>
     <string name="navigation_drawer_example">Navigation drawer example</string>
     <string name="custom_shape_example">Custom shape example</string>
+    <string name="undo_snackbar_example">Undo snackbar example</string>
 </resources>

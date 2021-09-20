@@ -36,4 +36,10 @@
         android:layout_height="wrap_content"
         android:text="@string/custom_shape_example" />
 
+    <Button
+        android:id="@+id/bUndoSnackbarExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/undo_snackbar_example" />
+
 </LinearLayout>

@@ -22,6 +22,7 @@
         <activity android:name=".SimpleCardActivity" />
         <activity android:name=".navigationdrawer.NavigationDrawerActivity" />
         <activity android:name=".customshape.CustomShapeActivity" />
+        <activity android:name=".undesnackbar.UndoSnackbarActivity" />
     </application>
 
 </manifest>
