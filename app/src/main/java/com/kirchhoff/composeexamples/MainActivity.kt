@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
@@ -20,5 +21,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bDrawerExample).setOnClickListener { startActivity(Intent(this, NavigationDrawerActivity::class.java)) }
         findViewById<Button>(R.id.bCustomShapeExample).setOnClickListener { startActivity(Intent(this, CustomShapeActivity::class.java)) }
         findViewById<Button>(R.id.bUndoSnackbarExample).setOnClickListener { startActivity(Intent(this, UndoSnackbarActivity::class.java)) }
+        findViewById<Button>(R.id.bBottomSheetScaffold).setOnClickListener { startActivity(Intent(this, BottomSheetModalActivity::class.java)) }
+        findViewById<Button>(R.id.bBottomSheetModal).setOnClickListener { startActivity(Intent(this, BottomSheetModalActivity::class.java)) }
     }
 }

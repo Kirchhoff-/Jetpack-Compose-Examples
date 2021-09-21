@@ -6,4 +6,6 @@
     <string name="navigation_drawer_example">Navigation drawer example</string>
     <string name="custom_shape_example">Custom shape example</string>
     <string name="undo_snackbar_example">Undo snackbar example</string>
+    <string name="bottom_sheet_scaffold_example">Bottom sheet scaffold example</string>
+    <string name="bottom_sheet_modal_example">Bottom sheet modal example</string>
 </resources>

@@ -42,4 +42,16 @@
         android:layout_height="wrap_content"
         android:text="@string/undo_snackbar_example" />
 
+    <Button
+        android:id="@+id/bBottomSheetScaffold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_sheet_scaffold_example" />
+
+    <Button
+        android:id="@+id/bBottomSheetModal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_sheet_modal_example" />
+
 </LinearLayout>
