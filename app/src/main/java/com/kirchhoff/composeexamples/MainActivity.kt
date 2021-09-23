@@ -8,6 +8,7 @@ import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.bottomsheet.scaffold.BottomSheetScaffoldActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
+import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
 
 class MainActivity : AppCompatActivity() {
@@ -24,5 +25,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bUndoSnackbarExample).setOnClickListener { startActivity(Intent(this, UndoSnackbarActivity::class.java)) }
         findViewById<Button>(R.id.bBottomSheetScaffold).setOnClickListener { startActivity(Intent(this, BottomSheetScaffoldActivity::class.java)) }
         findViewById<Button>(R.id.bBottomSheetModal).setOnClickListener { startActivity(Intent(this, BottomSheetModalActivity::class.java)) }
+        findViewById<Button>(R.id.bTabsExample).setOnClickListener { startActivity(Intent(this, TabsExampleActivity::class.java)) }
     }
 }

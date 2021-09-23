@@ -25,6 +25,7 @@
         <activity android:name=".undesnackbar.UndoSnackbarActivity" />
         <activity android:name=".bottomsheet.scaffold.BottomSheetScaffoldActivity" />
         <activity android:name=".bottomsheet.modal.BottomSheetModalActivity" />
+        <activity android:name=".tabs.TabsExampleActivity" />
     </application>
 
 </manifest>

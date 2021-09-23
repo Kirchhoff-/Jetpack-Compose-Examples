@@ -54,4 +54,10 @@
         android:layout_height="wrap_content"
         android:text="@string/bottom_sheet_modal_example" />
 
+    <Button
+        android:id="@+id/bTabsExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tabs_example" />
+
 </LinearLayout>

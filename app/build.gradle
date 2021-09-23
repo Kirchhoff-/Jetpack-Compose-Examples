@@ -60,4 +60,7 @@ dependencies {
     // Material Design
     implementation libraries.composeMaterial
     implementation libraries.navigationCompose
+
+    implementation libraries.accompanistPager
+    implementation libraries.accompanistIndicators
 }
