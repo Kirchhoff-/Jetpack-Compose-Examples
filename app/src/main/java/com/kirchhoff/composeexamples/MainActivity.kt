@@ -10,6 +10,7 @@ import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
+import com.kirchhoff.composeexamples.viewmodel.BaseViewModelExampleActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bBottomSheetScaffold).setOnClickListener { startActivity(Intent(this, BottomSheetScaffoldActivity::class.java)) }
         findViewById<Button>(R.id.bBottomSheetModal).setOnClickListener { startActivity(Intent(this, BottomSheetModalActivity::class.java)) }
         findViewById<Button>(R.id.bTabsExample).setOnClickListener { startActivity(Intent(this, TabsExampleActivity::class.java)) }
+        findViewById<Button>(R.id.bBaseViewModelExample).setOnClickListener { startActivity(Intent(this, BaseViewModelExampleActivity::class.java)) }
     }
 }

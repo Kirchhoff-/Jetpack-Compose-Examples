@@ -63,4 +63,6 @@ dependencies {
 
     implementation libraries.accompanistPager
     implementation libraries.accompanistIndicators
+
+    implementation libraries.composeLiveData
 }

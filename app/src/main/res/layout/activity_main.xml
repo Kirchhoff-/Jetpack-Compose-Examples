@@ -60,4 +60,10 @@
         android:layout_height="wrap_content"
         android:text="@string/tabs_example" />
 
+    <Button
+        android:id="@+id/bBaseViewModelExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/base_view_model_example" />
+
 </LinearLayout>
