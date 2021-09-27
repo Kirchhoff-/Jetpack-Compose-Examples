@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.kirchhoff.composeexamples.bottomnavigation.BottomNavigationBarActivity
 import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.bottomsheet.scaffold.BottomSheetScaffoldActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
@@ -28,5 +29,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bBottomSheetModal).setOnClickListener { startActivity(Intent(this, BottomSheetModalActivity::class.java)) }
         findViewById<Button>(R.id.bTabsExample).setOnClickListener { startActivity(Intent(this, TabsExampleActivity::class.java)) }
         findViewById<Button>(R.id.bBaseViewModelExample).setOnClickListener { startActivity(Intent(this, BaseViewModelExampleActivity::class.java)) }
+        findViewById<Button>(R.id.bBottomNavigationBarExample).setOnClickListener { startActivity(Intent(this, BottomNavigationBarActivity::class.java)) }
     }
 }

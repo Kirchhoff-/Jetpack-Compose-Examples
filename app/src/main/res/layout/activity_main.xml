@@ -66,4 +66,10 @@
         android:layout_height="wrap_content"
         android:text="@string/base_view_model_example" />
 
+    <Button
+        android:id="@+id/bBottomNavigationBarExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_navigation_bar_example" />
+
 </LinearLayout>

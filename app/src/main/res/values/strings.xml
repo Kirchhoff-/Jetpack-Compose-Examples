@@ -10,4 +10,5 @@
     <string name="bottom_sheet_modal_example">Bottom sheet modal example</string>
     <string name="tabs_example">Tabs example</string>
     <string name="base_view_model_example">Base ViewModel example</string>
+    <string name="bottom_navigation_bar_example">Bottom Navigation Bar example</string>
 </resources>
