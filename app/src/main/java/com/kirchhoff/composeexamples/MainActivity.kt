@@ -7,6 +7,7 @@ import android.widget.Button
 import com.kirchhoff.composeexamples.bottomnavigation.BottomNavigationBarActivity
 import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.bottomsheet.scaffold.BottomSheetScaffoldActivity
+import com.kirchhoff.composeexamples.clock.ClockActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
@@ -30,5 +31,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bTabsExample).setOnClickListener { startActivity(Intent(this, TabsExampleActivity::class.java)) }
         findViewById<Button>(R.id.bBaseViewModelExample).setOnClickListener { startActivity(Intent(this, BaseViewModelExampleActivity::class.java)) }
         findViewById<Button>(R.id.bBottomNavigationBarExample).setOnClickListener { startActivity(Intent(this, BottomNavigationBarActivity::class.java)) }
+        findViewById<Button>(R.id.bClockExample).setOnClickListener { startActivity(Intent(this, ClockActivity::class.java)) }
     }
 }
