@@ -78,4 +78,10 @@
         android:layout_height="wrap_content"
         android:text="@string/clock_example" />
 
+    <Button
+        android:id="@+id/bCounterBadgeExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_badge_example" />
+
 </LinearLayout>

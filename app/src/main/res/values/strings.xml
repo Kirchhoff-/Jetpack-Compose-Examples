@@ -12,4 +12,5 @@
     <string name="base_view_model_example">Base ViewModel example</string>
     <string name="bottom_navigation_bar_example">Bottom Navigation Bar example</string>
     <string name="clock_example">Clock example</string>
+    <string name="counter_badge_example">Counter badge example</string>
 </resources>
