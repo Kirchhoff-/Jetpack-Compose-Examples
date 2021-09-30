@@ -30,6 +30,7 @@
         <activity android:name=".bottomnavigation.BottomNavigationBarActivity" />
         <activity android:name=".clock.ClockActivity" />
         <activity android:name=".counterbadge.CounterBadgeActivity" />
+        <activity android:name=".texttransformation.TextTransformationActivity" />
     </application>
 
 </manifest>

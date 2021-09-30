@@ -12,6 +12,7 @@ import com.kirchhoff.composeexamples.counterbadge.CounterBadgeActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
+import com.kirchhoff.composeexamples.texttransformation.TextTransformationActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
 import com.kirchhoff.composeexamples.viewmodel.BaseViewModelExampleActivity
 
@@ -34,5 +35,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bBottomNavigationBarExample).setOnClickListener { startActivity(Intent(this, BottomNavigationBarActivity::class.java)) }
         findViewById<Button>(R.id.bClockExample).setOnClickListener { startActivity(Intent(this, ClockActivity::class.java)) }
         findViewById<Button>(R.id.bCounterBadgeExample).setOnClickListener { startActivity(Intent(this, CounterBadgeActivity::class.java)) }
+        findViewById<Button>(R.id.bTextTransformationExample).setOnClickListener { startActivity(Intent(this, TextTransformationActivity::class.java)) }
     }
 }
