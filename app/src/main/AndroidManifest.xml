@@ -31,6 +31,7 @@
         <activity android:name=".clock.ClockActivity" />
         <activity android:name=".counterbadge.CounterBadgeActivity" />
         <activity android:name=".texttransformation.TextTransformationActivity" />
+        <activity android:name=".searchinlist.SearchInListActivity" />
     </application>
 
 </manifest>
