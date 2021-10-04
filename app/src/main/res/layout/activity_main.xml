@@ -101,6 +101,12 @@
             android:layout_height="wrap_content"
             android:text="@string/search_in_list_example"/>
 
+        <Button
+            android:id="@+id/bEmojiListExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emoji_list_example" />
+
     </LinearLayout>
 
 </ScrollView>
