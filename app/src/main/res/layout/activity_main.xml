@@ -107,6 +107,12 @@
             android:layout_height="wrap_content"
             android:text="@string/emoji_list_example" />
 
+        <Button
+            android:id="@+id/bAnimationExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animation_example" />
+
     </LinearLayout>
 
 </ScrollView>

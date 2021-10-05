@@ -33,6 +33,7 @@
         <activity android:name=".texttransformation.TextTransformationActivity" />
         <activity android:name=".searchinlist.SearchInListActivity" />
         <activity android:name=".emoji.EmojiListActivity" />
+        <activity android:name=".animation.AnimationActivity" />
     </application>
 
 </manifest>

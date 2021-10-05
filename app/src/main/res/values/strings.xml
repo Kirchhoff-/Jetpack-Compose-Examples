@@ -16,4 +16,5 @@
     <string name="text_transformation_example">Text transformation example</string>
     <string name="search_in_list_example">Search in list example</string>
     <string name="emoji_list_example">Emoji list example</string>
+    <string name="animation_example">Animation example</string>
 </resources>
