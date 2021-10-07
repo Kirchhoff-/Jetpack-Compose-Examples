@@ -22,10 +22,15 @@ class AnimationActivity: AppCompatActivity() {
 @Preview
 fun AnimationUI() {
     Column(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(start = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
        CircleTwinView()
+       Spacer(modifier = Modifier.height(16.dp))
        CircleOffsetView()
+       Spacer(modifier = Modifier.height(16.dp))
+       ArcRotationView()
     }
 }
