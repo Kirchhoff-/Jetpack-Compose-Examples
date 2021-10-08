@@ -113,6 +113,12 @@
             android:layout_height="wrap_content"
             android:text="@string/animation_example" />
 
+        <Button
+            android:id="@+id/bAnimatedVisibilityExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animated_visibility_example" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -34,6 +34,7 @@
         <activity android:name=".searchinlist.SearchInListActivity" />
         <activity android:name=".emoji.EmojiListActivity" />
         <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".animatedvisibility.AnimatedVisibilityActivity" />
     </application>
 
 </manifest>

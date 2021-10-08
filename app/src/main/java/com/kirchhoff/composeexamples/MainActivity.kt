@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.compose.foundation.ExperimentalFoundationApi
+import com.kirchhoff.composeexamples.animatedvisibility.AnimatedVisibilityActivity
 import com.kirchhoff.composeexamples.animation.AnimationActivity
 import com.kirchhoff.composeexamples.bottomnavigation.BottomNavigationBarActivity
 import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
@@ -44,5 +45,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bSearchInListExample).setOnClickListener { startActivity(Intent(this, SearchInListActivity::class.java)) }
         findViewById<Button>(R.id.bEmojiListExample).setOnClickListener { startActivity(Intent(this, EmojiListActivity::class.java)) }
         findViewById<Button>(R.id.bAnimationExample).setOnClickListener { startActivity(Intent(this, AnimationActivity::class.java)) }
+        findViewById<Button>(R.id.bAnimatedVisibilityExample).setOnClickListener { startActivity(Intent(this, AnimatedVisibilityActivity::class.java)) }
     }
 }
