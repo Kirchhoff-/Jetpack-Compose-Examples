@@ -2,10 +2,6 @@
 buildscript {
     apply from: 'buildsystem/dependencies.gradle'
 
-    ext.kotlin_version = "1.5.10"
-    ext {
-        compose_version = '1.0.0-rc01'
-    }
     repositories {
         google()
         mavenCentral()
