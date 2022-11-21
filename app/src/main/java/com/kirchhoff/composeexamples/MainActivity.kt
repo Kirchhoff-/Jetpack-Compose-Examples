@@ -10,6 +10,7 @@ import com.kirchhoff.composeexamples.animation.AnimationActivity
 import com.kirchhoff.composeexamples.bottomnavigation.BottomNavigationBarActivity
 import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.bottomsheet.scaffold.BottomSheetScaffoldActivity
+import com.kirchhoff.composeexamples.boxwithconstraints.BoxWithConstraintsActivity
 import com.kirchhoff.composeexamples.clock.ClockActivity
 import com.kirchhoff.composeexamples.counterbadge.CounterBadgeActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
@@ -46,5 +47,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bEmojiListExample).setOnClickListener { startActivity(Intent(this, EmojiListActivity::class.java)) }
         findViewById<Button>(R.id.bAnimationExample).setOnClickListener { startActivity(Intent(this, AnimationActivity::class.java)) }
         findViewById<Button>(R.id.bAnimatedVisibilityExample).setOnClickListener { startActivity(Intent(this, AnimatedVisibilityActivity::class.java)) }
+        findViewById<Button>(R.id.bBoxWithConstraints).setOnClickListener { startActivity(Intent(this, BoxWithConstraintsActivity::class.java)) }
     }
 }

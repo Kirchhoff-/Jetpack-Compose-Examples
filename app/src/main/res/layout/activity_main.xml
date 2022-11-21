@@ -119,6 +119,12 @@
             android:layout_height="wrap_content"
             android:text="@string/animated_visibility_example" />
 
+        <Button
+            android:id="@+id/bBoxWithConstraints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/box_with_constraints_example"/>
+
     </LinearLayout>
 
 </ScrollView>

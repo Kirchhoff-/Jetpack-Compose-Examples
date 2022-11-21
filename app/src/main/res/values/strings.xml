@@ -18,4 +18,5 @@
     <string name="emoji_list_example">Emoji list example</string>
     <string name="animation_example">Animation example</string>
     <string name="animated_visibility_example">Animated visibility example</string>
+    <string name="box_with_constraints_example">Box with constraints example</string>
 </resources>
