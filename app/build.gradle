@@ -61,4 +61,5 @@ dependencies {
     implementation libraries.composeLiveData
 
     implementation project(path: ':boxwithconstraints')
+    implementation project(path: ':expandablelist')
 }

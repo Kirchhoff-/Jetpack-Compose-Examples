@@ -125,6 +125,12 @@
             android:layout_height="wrap_content"
             android:text="@string/box_with_constraints_example"/>
 
+        <Button
+            android:id="@+id/bExpandableListExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expandable_list_example" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -15,6 +15,7 @@ import com.kirchhoff.composeexamples.clock.ClockActivity
 import com.kirchhoff.composeexamples.counterbadge.CounterBadgeActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.emoji.EmojiListActivity
+import com.kirchhoff.composeexamples.expandablelist.ExpandableListActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.searchinlist.SearchInListActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
@@ -48,5 +49,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bAnimationExample).setOnClickListener { startActivity(Intent(this, AnimationActivity::class.java)) }
         findViewById<Button>(R.id.bAnimatedVisibilityExample).setOnClickListener { startActivity(Intent(this, AnimatedVisibilityActivity::class.java)) }
         findViewById<Button>(R.id.bBoxWithConstraints).setOnClickListener { startActivity(Intent(this, BoxWithConstraintsActivity::class.java)) }
+        findViewById<Button>(R.id.bExpandableListExample).setOnClickListener { startActivity(Intent(this, ExpandableListActivity::class.java)) }
     }
 }
