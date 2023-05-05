@@ -16,6 +16,7 @@ import com.kirchhoff.composeexamples.counterbadge.CounterBadgeActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
 import com.kirchhoff.composeexamples.emoji.EmojiListActivity
 import com.kirchhoff.composeexamples.expandablelist.ExpandableListActivity
+import com.kirchhoff.composeexamples.expandabletextview.ExpandableTextViewActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
 import com.kirchhoff.composeexamples.otptextfield.OtpTextFieldActivity
 import com.kirchhoff.composeexamples.searchinlist.SearchInListActivity
@@ -52,5 +53,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bBoxWithConstraints).setOnClickListener { startActivity(Intent(this, BoxWithConstraintsActivity::class.java)) }
         findViewById<Button>(R.id.bExpandableListExample).setOnClickListener { startActivity(Intent(this, ExpandableListActivity::class.java)) }
         findViewById<Button>(R.id.bOtpTextFieldExample).setOnClickListener { startActivity(Intent(this, OtpTextFieldActivity::class.java)) }
+        findViewById<Button>(R.id.bExpandableTextView).setOnClickListener { startActivity(Intent(this, ExpandableTextViewActivity::class.java)) }
     }
 }

@@ -63,4 +63,5 @@ dependencies {
     implementation project(path: ':boxwithconstraints')
     implementation project(path: ':expandablelist')
     implementation project(path: ':otptextfield')
+    implementation project(path: ':expandabletextview')
 }

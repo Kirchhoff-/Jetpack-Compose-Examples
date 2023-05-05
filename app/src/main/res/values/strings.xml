@@ -21,4 +21,5 @@
     <string name="box_with_constraints_example">Box with constraints example</string>
     <string name="expandable_list_example">Expandable List example</string>
     <string name="otp_text_field_example">OtpTextField example</string>
+    <string name="expandable_text_view">Expandable TextView</string>
 </resources>
