@@ -65,4 +65,5 @@ dependencies {
     implementation project(path: ':otptextfield')
     implementation project(path: ':expandabletextview')
     implementation project(path: ':touchfeedback')
+    implementation project(path: ':circularreveal')
 }

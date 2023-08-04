@@ -149,6 +149,12 @@
             android:layout_height="wrap_content"
             android:text="@string/touch_feedback_animation"/>
 
+        <Button
+            android:id="@+id/bCircularRevealAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/circular_reveal_animation" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -23,4 +23,5 @@
     <string name="otp_text_field_example">OtpTextField example</string>
     <string name="expandable_text_view">Expandable TextView</string>
     <string name="touch_feedback_animation">Touch feedback animation</string>
+    <string name="circular_reveal_animation">Circular reveal animation</string>
 </resources>
