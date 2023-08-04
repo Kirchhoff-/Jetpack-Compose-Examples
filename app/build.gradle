@@ -64,4 +64,5 @@ dependencies {
     implementation project(path: ':expandablelist')
     implementation project(path: ':otptextfield')
     implementation project(path: ':expandabletextview')
+    implementation project(path: ':touchfeedback')
 }

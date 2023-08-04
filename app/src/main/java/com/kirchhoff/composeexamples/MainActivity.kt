@@ -22,6 +22,7 @@ import com.kirchhoff.composeexamples.otptextfield.OtpTextFieldActivity
 import com.kirchhoff.composeexamples.searchinlist.SearchInListActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
 import com.kirchhoff.composeexamples.texttransformation.TextTransformationActivity
+import com.kirchhoff.composeexamples.touchfeedback.TouchFeedbackAnimationActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
 import com.kirchhoff.composeexamples.viewmodel.BaseViewModelExampleActivity
 
@@ -54,5 +55,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bExpandableListExample).setOnClickListener { startActivity(Intent(this, ExpandableListActivity::class.java)) }
         findViewById<Button>(R.id.bOtpTextFieldExample).setOnClickListener { startActivity(Intent(this, OtpTextFieldActivity::class.java)) }
         findViewById<Button>(R.id.bExpandableTextView).setOnClickListener { startActivity(Intent(this, ExpandableTextViewActivity::class.java)) }
+        findViewById<Button>(R.id.bTouchFeedbackAnimation).setOnClickListener { startActivity(Intent(this, TouchFeedbackAnimationActivity::class.java)) }
     }
 }

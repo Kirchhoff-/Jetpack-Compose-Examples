@@ -143,6 +143,12 @@
             android:layout_height="wrap_content"
             android:text="@string/expandable_text_view"/>
 
+        <Button
+            android:id="@+id/bTouchFeedbackAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/touch_feedback_animation"/>
+
     </LinearLayout>
 
 </ScrollView>

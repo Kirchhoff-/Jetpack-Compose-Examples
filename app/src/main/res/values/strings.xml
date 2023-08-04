@@ -22,4 +22,5 @@
     <string name="expandable_list_example">Expandable List example</string>
     <string name="otp_text_field_example">OtpTextField example</string>
     <string name="expandable_text_view">Expandable TextView</string>
+    <string name="touch_feedback_animation">Touch feedback animation</string>
 </resources>

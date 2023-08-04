@@ -3,4 +3,5 @@ include ':boxwithconstraints'
 include ':expandablelist'
 include ':otptextfield'
 include ':expandabletextview'
+include ':touchfeedback'
 rootProject.name = "ComposeExamples"
