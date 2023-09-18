@@ -5,4 +5,5 @@ include ':otptextfield'
 include ':expandabletextview'
 include ':touchfeedback'
 include ':circularreveal'
+include ':animateborders'
 rootProject.name = "ComposeExamples"

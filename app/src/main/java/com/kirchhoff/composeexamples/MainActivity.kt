@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.compose.foundation.ExperimentalFoundationApi
+import com.kirchhoff.composeexamples.animateborders.AnimateBordersActivity
 import com.kirchhoff.composeexamples.animatedvisibility.AnimatedVisibilityActivity
 import com.kirchhoff.composeexamples.animation.AnimationActivity
 import com.kirchhoff.composeexamples.bottomnavigation.BottomNavigationBarActivity
@@ -58,5 +59,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bExpandableTextView).setOnClickListener { startActivity(Intent(this, ExpandableTextViewActivity::class.java)) }
         findViewById<Button>(R.id.bTouchFeedbackAnimation).setOnClickListener { startActivity(Intent(this, TouchFeedbackAnimationActivity::class.java)) }
         findViewById<Button>(R.id.bCircularRevealAnimation).setOnClickListener { startActivity(Intent(this, CircularRevealAnimationActivity::class.java)) }
+        findViewById<Button>(R.id.bAnimateBorders).setOnClickListener { startActivity(Intent(this, AnimateBordersActivity::class.java)) }
     }
 }

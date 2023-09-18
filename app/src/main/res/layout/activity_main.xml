@@ -155,6 +155,12 @@
             android:layout_height="wrap_content"
             android:text="@string/circular_reveal_animation" />
 
+        <Button
+            android:id="@+id/bAnimateBorders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animate_borders_animation" />
+
     </LinearLayout>
 
 </ScrollView>
