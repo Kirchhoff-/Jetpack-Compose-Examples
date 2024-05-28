@@ -161,6 +161,12 @@
             android:layout_height="wrap_content"
             android:text="@string/animate_borders_animation" />
 
+        <Button
+            android:id="@+id/bClickableLocalizedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clickable_localized_text" />
+
     </LinearLayout>
 
 </ScrollView>

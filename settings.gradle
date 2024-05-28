@@ -6,4 +6,5 @@ include ':expandabletextview'
 include ':touchfeedback'
 include ':circularreveal'
 include ':animateborders'
+include ':clickablelocalizedtext'
 rootProject.name = "ComposeExamples"

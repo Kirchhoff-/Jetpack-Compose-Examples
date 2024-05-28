@@ -13,6 +13,7 @@ import com.kirchhoff.composeexamples.bottomsheet.modal.BottomSheetModalActivity
 import com.kirchhoff.composeexamples.bottomsheet.scaffold.BottomSheetScaffoldActivity
 import com.kirchhoff.composeexamples.boxwithconstraints.BoxWithConstraintsActivity
 import com.kirchhoff.composeexamples.circularreveal.CircularRevealAnimationActivity
+import com.kirchhoff.composeexamples.clickablelocalizedtext.ClickableLocalizedTextActivity
 import com.kirchhoff.composeexamples.clock.ClockActivity
 import com.kirchhoff.composeexamples.counterbadge.CounterBadgeActivity
 import com.kirchhoff.composeexamples.customshape.CustomShapeActivity
@@ -60,5 +61,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bTouchFeedbackAnimation).setOnClickListener { startActivity(Intent(this, TouchFeedbackAnimationActivity::class.java)) }
         findViewById<Button>(R.id.bCircularRevealAnimation).setOnClickListener { startActivity(Intent(this, CircularRevealAnimationActivity::class.java)) }
         findViewById<Button>(R.id.bAnimateBorders).setOnClickListener { startActivity(Intent(this, AnimateBordersActivity::class.java)) }
+        findViewById<Button>(R.id.bClickableLocalizedText).setOnClickListener { startActivity(Intent(this, ClickableLocalizedTextActivity::class.java)) }
     }
 }

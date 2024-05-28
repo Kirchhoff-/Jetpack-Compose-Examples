@@ -67,4 +67,5 @@ dependencies {
     implementation project(path: ':touchfeedback')
     implementation project(path: ':circularreveal')
     implementation project(path: ':animateborders')
+    implementation project(path: ':clickablelocalizedtext')
 }

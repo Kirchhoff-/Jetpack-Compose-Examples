@@ -25,4 +25,5 @@
     <string name="touch_feedback_animation">Touch feedback animation</string>
     <string name="circular_reveal_animation">Circular reveal animation</string>
     <string name="animate_borders_animation">Animate borders animation</string>
+    <string name="clickable_localized_text">Clickable localized text</string>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prefix_terms">Нажимая Продолжить, вы соглашаетесь с нашими\u0020</string>
+    <string name="terms">Условиями</string>
+    <string name="privacy_policy">Политикой конфиденциальности</string>
+    <string name="and">\u0020and\u0020</string>
+    <string name="agreement_text">Нажимая Продолжить, вы соглашаетесь с нашими Условиями и Политикой конфиденциальности</string>
+</resources>
