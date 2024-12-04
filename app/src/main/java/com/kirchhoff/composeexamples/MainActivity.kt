@@ -21,6 +21,7 @@ import com.kirchhoff.composeexamples.emoji.EmojiListActivity
 import com.kirchhoff.composeexamples.expandablelist.ExpandableListActivity
 import com.kirchhoff.composeexamples.expandabletextview.ExpandableTextViewActivity
 import com.kirchhoff.composeexamples.navigationdrawer.NavigationDrawerActivity
+import com.kirchhoff.composeexamples.nestedscrollinterop.NestedScrollInteropActivity
 import com.kirchhoff.composeexamples.otptextfield.OtpTextFieldActivity
 import com.kirchhoff.composeexamples.searchinlist.SearchInListActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
@@ -62,5 +63,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bCircularRevealAnimation).setOnClickListener { startActivity(Intent(this, CircularRevealAnimationActivity::class.java)) }
         findViewById<Button>(R.id.bAnimateBorders).setOnClickListener { startActivity(Intent(this, AnimateBordersActivity::class.java)) }
         findViewById<Button>(R.id.bClickableLocalizedText).setOnClickListener { startActivity(Intent(this, ClickableLocalizedTextActivity::class.java)) }
+        findViewById<Button>(R.id.bNestedScrollInteropConnection).setOnClickListener { startActivity(Intent(this, NestedScrollInteropActivity::class.java)) }
     }
 }

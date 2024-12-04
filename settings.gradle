@@ -7,4 +7,5 @@ include ':touchfeedback'
 include ':circularreveal'
 include ':animateborders'
 include ':clickablelocalizedtext'
+include ':nestedscrollinterop'
 rootProject.name = "ComposeExamples"

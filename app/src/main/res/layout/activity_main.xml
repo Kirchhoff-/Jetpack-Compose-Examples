@@ -167,6 +167,12 @@
             android:layout_height="wrap_content"
             android:text="@string/clickable_localized_text" />
 
+        <Button
+            android:id="@+id/bNestedScrollInteropConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nested_scroll_interop" />
+
     </LinearLayout>
 
 </ScrollView>
