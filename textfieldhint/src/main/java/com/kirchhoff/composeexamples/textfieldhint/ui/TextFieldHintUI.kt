@@ -62,70 +62,78 @@ fun TextFieldHintUI(
         }
     }
 
-    BasicTextField(
-        value = text,
-        onValueChange = { text = it },
-        modifier = modifier,
-        interactionSource = interactionSource,
-        visualTransformation = visualTransformation,
-        textStyle = textFieldTextStyle(),
-        cursorBrush = SolidColor(MaterialTheme.colors.onSurface),
-        decorationBox = { innerTextField ->
-            SharedTransitionLayout {
-                AnimatedContent(
-                    targetState = showHintAbove,
-                    transitionSpec = {
-                        EnterTransition.None togetherWith ExitTransition.None
-                    },
-                    label = "hintAnimation"
-                ) { showHintAbove ->
-                    Column {
-                        Box(Modifier.padding(start = 2.dp)) {
-                            InvisibleTextAsPlaceholder(exteriorHintTextStyle())
-                            if (showHintAbove) {
-                                TextAsIndividualLetters(
-                                    animatedContentScope = this@AnimatedContent,
-                                    text = hint,
-                                    style = exteriorHintTextStyle(),
-                                )
-                            }
-                        }
-                        Spacer(Modifier.height(2.dp))
-                        Box(
-                            modifier = Modifier
-                                .sharedElement(
-                                    rememberSharedContentState(key = "input"),
-                                    animatedVisibilityScope = this@AnimatedContent
-                                )
-                                .defaultMinSize(minWidth = 300.dp)
-                                .background(
-                                    color = MaterialTheme.colors.onSurface,
-                                    shape = RoundedCornerShape(10.dp)
-                                )
-                                .border(
-                                    width = Dp.Hairline,
-                                    shape = RoundedCornerShape(10.dp),
-                                    color = MaterialTheme.colors.onSurface.copy(
-                                        alpha = .3f
+
+    Column {
+        BasicTextField(
+            value = text,
+            onValueChange = { text = it },
+            modifier = modifier,
+            interactionSource = interactionSource,
+            visualTransformation = visualTransformation,
+            textStyle = textFieldTextStyle(),
+            cursorBrush = SolidColor(Color.White),
+            decorationBox = { innerTextField ->
+                SharedTransitionLayout {
+                    AnimatedContent(
+                        targetState = showHintAbove,
+                        transitionSpec = {
+                            EnterTransition.None togetherWith ExitTransition.None
+                        },
+                        label = "hintAnimation"
+                    ) { showHintAbove ->
+                        Column {
+                            Box(Modifier.padding(start = 2.dp)) {
+                                InvisibleTextAsPlaceholder(exteriorHintTextStyle())
+                                if (showHintAbove) {
+                                    TextAsIndividualLetters(
+                                        animatedContentScope = this@AnimatedContent,
+                                        text = hint,
+                                        style = exteriorHintTextStyle(),
                                     )
-                                )
-                                .padding(horizontal = 10.dp, vertical = 8.dp),
-                            contentAlignment = Alignment.CenterStart
-                        ) {
-                            if (!showHintAbove) {
-                                TextAsIndividualLetters(
-                                    animatedContentScope = this@AnimatedContent,
-                                    text = hint,
-                                    style = interiorHintTextStyle(),
-                                )
+                                }
                             }
-                            innerTextField()
+                            Spacer(Modifier.height(2.dp))
+                            Box(
+                                modifier = Modifier
+                                    .sharedElement(
+                                        rememberSharedContentState(key = "input"),
+                                        animatedVisibilityScope = this@AnimatedContent
+                                    )
+                                    .defaultMinSize(minWidth = 300.dp)
+                                    .background(
+                                        color = Color.Blue,
+                                        shape = RoundedCornerShape(10.dp)
+                                    )
+                                    .border(
+                                        width = Dp.Hairline,
+                                        shape = RoundedCornerShape(10.dp),
+                                        color = Color.Blue.copy(
+                                            alpha = .3f
+                                        )
+                                    )
+                                    .padding(horizontal = 10.dp, vertical = 8.dp),
+                                contentAlignment = Alignment.CenterStart
+                            ) {
+                                if (!showHintAbove) {
+                                    TextAsIndividualLetters(
+                                        animatedContentScope = this@AnimatedContent,
+                                        text = hint,
+                                        style = interiorHintTextStyle(),
+                                    )
+                                }
+                                innerTextField()
+                            }
                         }
                     }
                 }
             }
-        }
-    )
+        )
+        Spacer(modifier = Modifier.height(16.dp))
+        BasicTextField(
+            value = "click to get focus",
+            onValueChange = {}
+        )
+    }
 }
 
 @Composable
@@ -170,7 +178,7 @@ private fun SharedTransitionScope.TextAsIndividualLetters(
 private fun textFieldTextStyle(): TextStyle = MaterialTheme.typography.subtitle1.copy(
     fontWeight = FontWeight.Normal,
     fontSize = 14.sp,
-    color = MaterialTheme.colors.onSurface.copy(alpha = .9f),
+    color = Color.Cyan.copy(alpha = .9f),
 )
 
 @ReadOnlyComposable
@@ -184,7 +192,7 @@ private fun exteriorHintTextStyle(): TextStyle = MaterialTheme.typography.subtit
 @ReadOnlyComposable
 @Composable
 private fun interiorHintTextStyle(): TextStyle = textFieldTextStyle().copy(
-    color = MaterialTheme.colors.onSurface.copy(alpha = .4f)
+    color = Color.Cyan.copy(alpha = .4f)
 )
 
 @Preview
