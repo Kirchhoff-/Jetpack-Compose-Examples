@@ -42,4 +42,6 @@ dependencies {
 	implementation libraries.composeFoundation
 	// Material Design
 	implementation libraries.composeMaterial
+	// Animation
+	implementation libraries.composeAnimation
 }

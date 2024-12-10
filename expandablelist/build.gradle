@@ -1,1 +1,5 @@
 apply from: '../buildsystem/android-library.gradle'
+
+android {
+    namespace "com.kirchhoff.composeexamples.expandablelist"
+}

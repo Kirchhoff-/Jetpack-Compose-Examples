@@ -9,6 +9,8 @@ android {
     compileSdkVersion versions.compileSdk
     buildToolsVersion versions.buildTools
 
+    namespace "com.kirchhoff.composeexamples"
+
     defaultConfig {
         applicationId "com.kirchhoff.composeexamples"
         minSdkVersion versions.minSdk
