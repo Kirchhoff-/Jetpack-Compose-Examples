@@ -25,6 +25,7 @@ import com.kirchhoff.composeexamples.nestedscrollinterop.NestedScrollInteropActi
 import com.kirchhoff.composeexamples.otptextfield.OtpTextFieldActivity
 import com.kirchhoff.composeexamples.searchinlist.SearchInListActivity
 import com.kirchhoff.composeexamples.tabs.TabsExampleActivity
+import com.kirchhoff.composeexamples.textfieldhint.TextFieldHintActivity
 import com.kirchhoff.composeexamples.texttransformation.TextTransformationActivity
 import com.kirchhoff.composeexamples.touchfeedback.TouchFeedbackAnimationActivity
 import com.kirchhoff.composeexamples.undesnackbar.UndoSnackbarActivity
@@ -64,5 +65,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.bAnimateBorders).setOnClickListener { startActivity(Intent(this, AnimateBordersActivity::class.java)) }
         findViewById<Button>(R.id.bClickableLocalizedText).setOnClickListener { startActivity(Intent(this, ClickableLocalizedTextActivity::class.java)) }
         findViewById<Button>(R.id.bNestedScrollInteropConnection).setOnClickListener { startActivity(Intent(this, NestedScrollInteropActivity::class.java)) }
+        findViewById<Button>(R.id.bTextFieldHint).setOnClickListener { startActivity(Intent(this, TextFieldHintActivity::class.java)) }
     }
 }

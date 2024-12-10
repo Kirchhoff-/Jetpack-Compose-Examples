@@ -1,0 +1,5 @@
+apply from: '../buildsystem/android-library.gradle'
+
+dependencies {
+    implementation 'androidx.compose.animation:animation-android:1.7.5'
+}

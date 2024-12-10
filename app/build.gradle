@@ -69,4 +69,5 @@ dependencies {
     implementation project(path: ':animateborders')
     implementation project(path: ':clickablelocalizedtext')
     implementation project(path: ':nestedscrollinterop')
+    implementation project(path: ':textfieldhint')
 }

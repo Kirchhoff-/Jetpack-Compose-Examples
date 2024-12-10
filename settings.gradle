@@ -8,4 +8,5 @@ include ':circularreveal'
 include ':animateborders'
 include ':clickablelocalizedtext'
 include ':nestedscrollinterop'
+include ':textfieldhint'
 rootProject.name = "ComposeExamples"
